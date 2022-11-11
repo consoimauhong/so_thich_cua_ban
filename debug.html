@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numberVatly = prompt("nhập số điểm vật lý:");
+    alert(typeof numberVatly);
+    let numberHoahoc = prompt("nhập số điểm hóa học:");
+    alert(typeof numberHoahoc);
+    let numberSinhhoc = prompt("nhập số điểm sinh học:");
+    alert(typeof numberSinhhoc);
+    let sumVHS = sum(numberVatly + numberHoahoc + numberSinhhoc);
+    alert(typeof sumVHS);
+    let divVHS = (sumVHS/3);
+    alert(typeof divVHS);
+
+    alert("Trung bình cộng các môn là: " + divVHS);
+</script>
+
+</body>
+</html>
